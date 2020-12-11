@@ -4,7 +4,7 @@ import { registerApplication, start } from "single-spa";
 registerApplication(
   "login",
   () => System.import("@ibo/login"),
-  (location) => !location.pathname.startsWith("/login")
+  (location) => !location.pathname.startsWith("")
 );
 
 
